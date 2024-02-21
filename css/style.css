@@ -42,6 +42,12 @@ main {
   background-color: var(--dark-blue);
 }
 
+@media only screen and (max-width: 37.5em) {
+  main {
+    padding: 10rem 0s;
+  }
+}
+
 .section-advice {
   position: relative;
   width: 38%;
